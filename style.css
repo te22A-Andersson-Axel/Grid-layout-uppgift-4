@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+}
+
+.Rubrik {
+    grid-area: rubrik;
+    text-align: center;
+    background-color: #35424a;
+    color: white;
+    font-size: 20px;
+}
+
+.lenkar {
+    display: grid;
+    grid-area: lenkar;
+    background-color: #35424a;
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #e8491d;
+    justify-content: end;
+    padding: 0px 0px 10px;
+}
+
+.lenkar2 {
+    display: grid;
+    grid-area: lenkar2;
+    background-color: #35424a;
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #e8491d;
+    justify-content: center;
+}
+
+.lenkar3 {
+    display: grid;
+    grid-area: lenkar3;
+    background-color: #35424a;
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #e8491d;
+    justify-content: start;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.lenkar a {
+    display: grid;
+    justify-items: center;
+    margin: 0px 20px 0px;
+}
+
+.mellan {
+    display: grid;
+    grid-area: mellan;
+    background-image: url(./img/showcase.jpg);
+    color: white;
+    text-align: center;
+    padding: 10px 90px 200px;
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #e8491d;
+}
+
+.mellan h1 {
+    font-size: 45px;
+}
+
+.mellan p {
+    font-size: 20px;
+}
+
+.nyhetsbrev {
+    display: grid;
+    grid-area: nyhetsbrev;
+    background-color: #35424a;
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #e8491d;
+    text-align: center;
+    color: white;
+}
+
+.sidfot {
+    display: grid;
+    grid-area: sidfot;
+    background-color: #e8491d;
+    color: white;
+    text-align: center;
+}
+
+.HTML5 {
+    display: grid;
+    grid-area: HTML5;
+    padding: 40px 50px 20px;
+    text-align: center;
+}
+
+.CSS3 {
+    display: grid;
+    grid-area: CSS3;
+    padding: 40px 50px 20px;
+    text-align: center;
+}
+
+.GD {
+    display: grid;
+    grid-area: GD;
+    padding: 40px 50px 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-grid {
+    display: grid;
+    gap: 0px 0px;
+    grid-template-areas: 
+    'rubrik rubrik rubrik'
+    'lenkar lenkar2 lenkar3'
+    'mellan mellan mellan'
+    'mellan mellan mellan'
+    'nyhetsbrev nyhetsbrev nyhetsbrev'
+    'HTML5 CSS3 GD'
+    'sidfot sidfot sidfot';
+}
+
+
